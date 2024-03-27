@@ -11,8 +11,8 @@ class RoomController extends Controller
 {
     public function GetAllRooms()
     {
-        $rooms = Room::all();
-        return $rooms;
+        $all = Room::all();
+        return $all;
     }
     public function GetUnActiveRooms()
     {
